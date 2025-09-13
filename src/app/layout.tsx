@@ -42,10 +42,12 @@ export default function RootLayout({
         
       </head>
       <body
-        className={cactus.className}
+        className={`${cactus.className} min-h-screen flex flex-col`}
       >
         <Header/>
-        {children}
+        <main className="flex-grow">
+          {children}
+        </main>
         <Footer/>
        <Script src="https://ticketscloud.com/static/scripts/widget/tcwidget.js"/>
       </body>

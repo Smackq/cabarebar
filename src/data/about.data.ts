@@ -12,7 +12,7 @@ export const ABOUTDATA: About[] = [
     },
      {
         img: '/images/about/Dasha.jpg',
-        name: 'Хореограф-постановщик',
+        name: 'Арт-Директор',
         href: '/about/choreographer'
     }
 ]

@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export function Aivar() {
     return(
-        <div className="max-w-5xl mx-auto mt-10 mb-10 lg:mb-20">
+        <div className="max-w-5xl mx-auto mt-6 mb-10 lg:mb-20">
             <div className="mx-6">
                 <div className="hidden lg:block">
                                 <div className="">

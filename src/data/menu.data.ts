@@ -11,6 +11,9 @@ export const MENUDATA:Menu[] = [
     {
         img: '/images/menu/block5menu3.jpg'
     },
+    {
+        img: '/images/menu/block5menu4.jpg'
+    },
    
 
 

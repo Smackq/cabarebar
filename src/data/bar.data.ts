@@ -11,6 +11,9 @@ export const BARDATA:Bar[] = [
     {
          img: '/images/bar/block4bar3.jpg'
     },
+    {
+         img: '/images/bar/block4bar4.jpg'
+    },
    
 
 
@@ -18,30 +21,30 @@ export const BARDATA:Bar[] = [
 
 export const BARDATAMAIN: Bar[] = [
     {
-        img: '/images/bar/barcard1.png'
+        img: '/images/bar/bar1.jpg'
     },
     {
-        img: '/images/bar/barcard2.png'
+        img: '/images/bar/bar2.jpg'
     },
     {
-        img: '/images/bar/barcard3.png'
+        img: '/images/bar/bar3.jpg'
     },
     {
-        img: '/images/bar/barcard4.png'
+        img: '/images/bar/bar4.jpg'
     },
     {
-        img: '/images/bar/barcard5.png'
+        img: '/images/bar/bar5.jpg'
     },
     {
-        img: '/images/bar/barcard6.png'
+        img: '/images/bar/bar6.jpg'
     },
     {
-        img: '/images/bar/barcard7.png'
+        img: '/images/bar/bar7.jpg'
     },
     {
-        img: '/images/bar/barcard8.png'
+        img: '/images/bar/bar8.jpg'
     },
     {
-        img: '/images/bar/barcard9.png'
+        img: '/images/bar/bar9.jpg'
     },
 ]

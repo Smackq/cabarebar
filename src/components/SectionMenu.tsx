@@ -10,10 +10,10 @@ export default function SectionMenu() {
 
   useEffect(() => {
     const updateCardCount = () => {
-      if (window.innerWidth >= 1024) {
-        setCardCount(3); // lg и больше
+      if (window.innerWidth >= 768) {
+        setCardCount(3); 
       } else {
-        setCardCount(4); // меньше lg
+        setCardCount(4); 
       }
     };
 
