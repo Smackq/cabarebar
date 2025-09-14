@@ -13,7 +13,7 @@ import { Button } from "./Button"
 import { BuyTicketsButton } from "./BuyTicketsButton"
 
 
-export function AfishaCard({img, title, description, date, price, id, dataTcEvent, dataTcToken}: PropsEvent) {
+export function AfishaCard({img, title, description, date, price, id, dataTcEvent, dataTcToken, schema}: PropsEvent) {
 
     const [isOpenModal, setIsOpenModal] = useState(false)
 
@@ -56,16 +56,28 @@ export function AfishaCard({img, title, description, date, price, id, dataTcEven
                                     <p className="text-[#F0C471] text-xl font-eb-garamond ">Цена: {price}</p>
                                 </div>
                             </div>
-
-                            <div className="flex justify-center lg:mt-5">
-                                {isMobile ?    <BuyTicketsButton dataTcToken={dataTcToken}  dataTcEvent={dataTcEvent}>Купить билет</BuyTicketsButton>                         
-                                 : (
-                                    <a  href={`/afisha/booking/${id}`}>
-                                    <Button size={2}>Купить билет</Button>
-                               </a>
+                                {schema ? (
+                                <div className="flex justify-center lg:mt-5">
+                                    {isMobile ? (
+                                    <BuyTicketsButton dataTcToken={dataTcToken} dataTcEvent={dataTcEvent}>
+                                        Купить билет
+                                    </BuyTicketsButton>
+                                    ) : (
+                                    <a href={`/afisha/booking/${id}`}>
+                                        <Button size={2}>Купить билет</Button>
+                                    </a>
+                                    )}
+                                </div>
+                                ) : (
+                                <div className="flex justify-center lg:mt-5">
+                                    <p className="text-red-800 text-center">
+                                    Уважаемый гость, на это мероприятие бронирование билетов
+                                    осуществляется по номеру <br/> +7 (900) 636-13-22.
+                                    </p>
+                                </div>
                                 )}
-                                
-                            </div>
+
+                            
                             </div>
 
                             
