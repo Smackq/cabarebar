@@ -17,7 +17,7 @@ export function SectionAbout() {
       <div className="flex flex-col md:flex-row justify-between  items-center gap-10 mx-6">
         
         <div className="">
-          <Image src='/images/main/block2logo1.png' width={600} height={600} alt="img" className="mt-10 md:mt-0 lg:mt-0"  />
+          <Image src='/images/main/block2logo1.png' width={600} height={600} alt="img" className="mt-10 md:mt-0"  />
           
           <div className="text-white text-sm  font-extralight  mt-5  text-center">
            Cabaret&Bar Мюзикл — окунитесь в волшебство наших шоу!

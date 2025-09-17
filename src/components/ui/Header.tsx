@@ -33,7 +33,7 @@ export function Header() {
   return (
     <header className="max-w-5xl mx-auto w-full relative z-50 ">
       {/* Верхняя панель */}
-      <div className="flex justify-between items-center gap-10 lg:p-6 p-6 pb-0 md:border-b-2 border-red-800">
+      <div className="flex justify-between items-center gap-10 lg:p-6 pb-0  p-6 md:border-b-2 border-red-800">
         <Link href={'/'}>
          <Image src='/images/main/headerLogo.png' alt="headerLogo" width={150} height={150}/>
         </Link>
