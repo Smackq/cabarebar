@@ -11,7 +11,7 @@ export function FullBar() {
              <div className="mx-6">
                <h1   data-aos="flip-down"
           data-aos-anchor-placement="center-bottom"
-          data-aos-duration="2000" className="text-center text-white text-4xl lg:text-6xl mb-1 font-cactus-classical">БАР</h1>
+          data-aos-duration="2000" className="text-center text-white text-4xl sm:text-5xl lg:text-6xl mb-1 font-cactus-classical">БАР</h1>
                <h2   data-aos="flip-down"
           data-aos-anchor-placement="center-bottom"
           data-aos-duration="2000" className="text-white text-center text-3xl mb-3  font-cactus-classical">Авторские коктейли</h2>

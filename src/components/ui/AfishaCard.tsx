@@ -23,6 +23,7 @@ export function AfishaCard({img, title, description, date, price, id, dataTcEven
      const isMobile = typeof window !== "undefined" && window.innerWidth < 768
     return (
         <div className="cursor-pointer">
+            <div className="hover:scale-105 duration-350 transition-transform">
             <Image onClick={handleOpenModal}
                 src={img} 
                 alt="img" 
@@ -32,7 +33,9 @@ export function AfishaCard({img, title, description, date, price, id, dataTcEven
                 data-aos-anchor-placement="top-bottom"
                 data-aos-duration="1500"
                  loading="lazy"
+                 
             />
+            </div>
              {isOpenModal && <Modal onClose={() => setIsOpenModal(false)}> 
                     <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center ">
                         <div className="w-[300px]">
@@ -41,7 +44,7 @@ export function AfishaCard({img, title, description, date, price, id, dataTcEven
                             alt="img" 
                             width={300} 
                             height={300} 
-                            className="w-[300px] h-[365px]  lg:w-[250px] lg:h-[350px] mx-auto lg:mx-0"
+                            className="lg:w-[250px] lg:h-[350px] mx-auto lg:mx-0"
                         />
                         </div>
                         <div className=" w-[300px]">

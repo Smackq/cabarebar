@@ -10,7 +10,7 @@ export default function SectionMenu() {
 
   useEffect(() => {
     const updateCardCount = () => {
-      if (window.innerWidth >= 768) {
+      if (window.innerWidth >= 640) {
         setCardCount(3); 
       } else {
         setCardCount(4); 
@@ -31,13 +31,13 @@ export default function SectionMenu() {
       <div className="mx-6">
         <h1  data-aos="flip-down"
           data-aos-anchor-placement="top-bottom"
-          data-aos-duration="1500" className="text-center text-white text-4xl lg:text-6xl mb-1 font-cactus-classical">МЕНЮ</h1>
+          data-aos-duration="1500" className="text-center text-white text-4xl sm:text-5xl lg:text-6xl mb-1 font-cactus-classical">МЕНЮ</h1>
         <h2  data-aos="flip-down"
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="1500" className="text-white text-center text-2xl lg:text-3xl   mb-3 font-cactus-classical">Популярные блюда</h2>
 
 
-        <div className="grid grid-cols-2 md:grid-cols-3 justify-center gap-5 lg:gap-10">
+        <div className="grid grid-cols-2 sm:grid-cols-3 justify-center gap-5 lg:gap-10">
           {visibleCard.slice(0, cardCount).map((item, index) => (
             <MenuCard key={index} img={item.img} />
           ))}

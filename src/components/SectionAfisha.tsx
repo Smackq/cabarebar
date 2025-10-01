@@ -11,7 +11,7 @@ export default function SectionAfisha() {
 
   useEffect(() => {
     const updateCardCount = () => {
-      if (window.innerWidth >= 768) {
+      if (window.innerWidth >= 640) {
         setCardCount(3); 
       } else {
         setCardCount(4); 
@@ -34,12 +34,12 @@ export default function SectionAfisha() {
           data-aos="flip-down"
           data-aos-anchor-placement="center-bottom"
           data-aos-duration="2000"
-          className="text-center text-white text-4xl lg:text-6xl mb-5 font-cactus-classical"
+          className="text-center text-white text-4xl sm:text-5xl lg:text-6xl mb-5 font-cactus-classical"
         >
           АФИША
         </h1>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 justify-center gap-5 lg:gap-10">
+        <div className="grid grid-cols-2 sm:grid-cols-3 justify-center gap-5 lg:gap-10">
           {visibleCard.map((item) => (
             <AfishaCard schema={item.schema} dataTcEvent={item.dataTcEvent} dataTcToken={item.dataTcToken} id={item.id} key={item.id} img={item.img} title={item.title} description={item.description} date={item.date} price={item.price} />
           ))}

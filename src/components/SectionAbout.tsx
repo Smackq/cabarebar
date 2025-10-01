@@ -13,11 +13,11 @@ export function SectionAbout() {
   }, [])
 
   return (
-    <div className="max-w-5xl mx-auto md:mt-10  ">
+     <div className="max-w-5xl mx-auto md:mt-10  ">
       <div className="flex flex-col md:flex-row justify-between  items-center gap-10 mx-6">
         
         <div className="">
-          <Image src='/images/main/block2logo1.png' width={600} height={600} alt="img" className="mt-10 md:mt-0"  />
+          <Image src='/images/main/block2logo1.png' width={600} height={600} alt="img" className="mt-10 md:mt-0 mx-auto"  />
           
           <div className="text-white text-sm  font-extralight  mt-5  text-center">
            Cabaret&Bar Мюзикл — окунитесь в волшебство наших шоу!
@@ -48,3 +48,6 @@ export function SectionAbout() {
     </div>
   )
 }
+
+
+

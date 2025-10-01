@@ -10,7 +10,7 @@ interface MenuItemProps extends IMenuItem {
 export function MenuItem({ name, href, onClick }: MenuItemProps) {
   return (
     <div className="relative">
-      <Link href={href} className="text-white font-['EB_Garamond'] hover:text-[#F0C471] transition-colors" onClick={onClick}>
+      <Link href={href} className="text-white  hover:text-[#F0C471] transition-colors" onClick={onClick}>
         {name}
       </Link>
       

@@ -31,21 +31,20 @@ export function Header() {
 
 
   return (
-    <header className="max-w-5xl mx-auto w-full relative z-50 ">
+    <header className="max-w-5xl mx-auto w-full relative z-50 mb-6">
       {/* Верхняя панель */}
-      <div className="flex justify-between items-center gap-10 lg:p-6 pb-0  p-6 md:border-b-2 border-red-800">
+      <div className="flex justify-between items-center gap-10 lg:p-6 p-6 pb-0 lg:border-b-2 border-red-800">
         <Link href={'/'}>
          <Image src='/images/main/headerLogo.png' alt="headerLogo" width={150} height={150}/>
         </Link>
 
         {/* Меню для больших экранов */}
         <div className="">
-        <nav className="hidden md:flex gap-10 justify-between items-center ">
+        <nav className="hidden lg:flex gap-10 justify-between items-center ">
           {MENU.map((item) => (
             
               <MenuItem key={item.href} name={item.name} href={item.href}  />
               
-            
           ))}
           
         </nav>
@@ -53,13 +52,13 @@ export function Header() {
       </div>
 
         {/* Телефон */}
-        <div className="hidden md:block text-white font-['EB_Garamond']">
+        <div className="hidden lg:block text-white ">
           +7 (900) 636-13-22
         </div>
 
         {/* Бургер для мобилок */}
         <button
-          className="md:hidden text-white text-3xl"
+          className="lg:hidden text-white text-3xl"
           onClick={() => setIsOpen(true)}
         >
           <HiOutlineMenu />
@@ -80,25 +79,18 @@ export function Header() {
         ${isOpen ? "translate-x-0" : "translate-x-full"}`}
       >
         <div className="flex justify-end items-center pt-5 pr-5">
-          <button className="text-white text-3xl font-['EB_Garamond']" onClick={() => setIsOpen(false)}>
+          <button className="text-white text-3xl " onClick={() => setIsOpen(false)}>
             <HiOutlineX />
           </button>
         </div>
 
-        <nav className="flex flex-col gap-2 p-3 font-['EB_Garamond'] text-md">
+        <nav className="flex flex-col gap-2 p-3  text-md">
           {MENU.map((item) => (
-            <Link
-              key={item.name}
-              href={item.href}
-              onClick={() => setIsOpen(false)}
-              className="text-white hover:text-gray-400 transition-colors"
-            >
-              {item.name}
-            </Link>
+            <MenuItem key={item.href} name={item.name} href={item.href}  />
           ))}
         </nav>
 
-        <div className="p-3 text-white text-center font-['EB_Garamond']">
+        <div className="p-3 text-white text-center ">
           +7 (900) 636-13-22
         </div>
          <div className="flex flex-row items-center justify-center gap-4">
