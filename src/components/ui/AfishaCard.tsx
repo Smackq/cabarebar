@@ -20,7 +20,7 @@ export function AfishaCard({img, title, description, date, price, id, dataTcEven
         function handleOpenModal() {
         setIsOpenModal(true)
     }
-     const isMobile = typeof window !== "undefined" && window.innerWidth < 768
+     const isMobile = typeof window !== "undefined" && window.innerWidth < 640
     return (
         <div className="cursor-pointer">
             <div className="hover:scale-105 duration-350 transition-transform">
