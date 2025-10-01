@@ -29,8 +29,8 @@ export const EVENTSINFOALL: PropsEvent[] = [
         description: '"Бурлеск" - мюзикл по мотивам одноименного фильма "Бурлеск" от труппы кабаре!',
         price: "≈2500",
         date: '03.10.2025',
-        dataTcEvent: "",
-        dataTcToken: "",
+        dataTcEvent: "68dcefcf8fc08d6569c85306",
+        dataTcToken: "eyJhbGciOiJIUzI1NiIsImlzcyI6InRpY2tldHNjbG91ZC5ydSIsInR5cCI6IkpXVCJ9.eyJwIjoiNjhkYjkxMjc3ZDk2N2IyZWRkYWIzOWVjIn0.x53ioRnq2WdVMPetZaGGXsvm74ZWDn0xYumYpfGofL0",
         schema: true,
     },
     {
@@ -40,8 +40,8 @@ export const EVENTSINFOALL: PropsEvent[] = [
         description: '"Бурлеск" - мюзикл по мотивам одноименного фильма "Бурлеск" от труппы кабаре!',
         price: "≈2500",
         date: '10.10.2025',
-        dataTcEvent: "",
-        dataTcToken: "",
+        dataTcEvent: "68dcf0c81f7046528a315806",
+        dataTcToken: "eyJhbGciOiJIUzI1NiIsImlzcyI6InRpY2tldHNjbG91ZC5ydSIsInR5cCI6IkpXVCJ9.eyJwIjoiNjhkYjkxMjc3ZDk2N2IyZWRkYWIzOWVjIn0.x53ioRnq2WdVMPetZaGGXsvm74ZWDn0xYumYpfGofL0",
         schema: true,
     },
     {
@@ -51,8 +51,8 @@ export const EVENTSINFOALL: PropsEvent[] = [
         description: '"Бурлеск" - мюзикл по мотивам одноименного фильма "Бурлеск" от труппы кабаре!',
         price: "≈2500",
         date: '11.10.2025',
-        dataTcEvent: "",
-        dataTcToken: "",
+        dataTcEvent: "68dcf12f5b72f646056f78ca",
+        dataTcToken: "eyJhbGciOiJIUzI1NiIsImlzcyI6InRpY2tldHNjbG91ZC5ydSIsInR5cCI6IkpXVCJ9.eyJwIjoiNjhkYjkxMjc3ZDk2N2IyZWRkYWIzOWVjIn0.x53ioRnq2WdVMPetZaGGXsvm74ZWDn0xYumYpfGofL0",
         schema: true,
     },
     

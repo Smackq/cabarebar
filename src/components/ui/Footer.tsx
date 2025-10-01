@@ -5,7 +5,8 @@ import { MENU } from "@/config/pages.config";
 export function Footer() {
     return(
         <div className="w-full bg-black mx-auto p-6  overflow-hidden ">
-            <div className="w-full lg:max-w-5xl  mx-auto">
+            <div className=" ">
+                <div className="max-w-5xl mx-auto">
             <div className="mx-6 flex flex-col justify-center items-center ">
                 <span className=" text-[#F0C471]    text-sm lg:text-xl font-serif">
                     МЮЗИКЛ | Ресторан - кабаре бар | Псков
@@ -67,7 +68,7 @@ export function Footer() {
                 </div>
             </div>
             </div>
-
+          </div>
 
         </div>
     )
