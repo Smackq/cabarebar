@@ -166,3 +166,4 @@ export const EVENTSINFOALL: PropsEvent[] = [
         schema: true,
     },
 ]
+
