@@ -13,6 +13,17 @@ export type PropsEvent = {
 export const EVENTSINFOALL: PropsEvent[] = [
     {
         id: "1",
+        img: '/imagesForAfisha/hell.jpg',
+        title: 'Костюмированная вечеринка Хэллоуин',
+        description: 'Ресторан-кабаре «Мюзикл» приглашает на вечеринку Хэллоуин «Ночь Искушений»! ',
+        price: "1500",
+        date: '31.10.2025',
+        dataTcEvent: "68fbefb829361a4f98f7f927",
+        dataTcToken: "eyJhbGciOiJIUzI1NiIsImlzcyI6InRpY2tldHNjbG91ZC5ydSIsInR5cCI6IkpXVCJ9.eyJwIjoiNjhkYjkxMjc3ZDk2N2IyZWRkYWIzOWVjIn0.x53ioRnq2WdVMPetZaGGXsvm74ZWDn0xYumYpfGofL0",
+        schema: true,
+    },
+    {
+        id: "2",
         img: '/imagesForAfisha/vik1.jpg',
         title: '"Виктория Николаева"',
         description: 'Музыкант, автор и исполнитель песен, сценарист литературно-музыкальных постановок',
@@ -23,7 +34,7 @@ export const EVENTSINFOALL: PropsEvent[] = [
         schema: false,
     },
     {
-        id: "2",
+        id: "3",
         img: '/imagesForAfisha/w2.jpg',
         title: '"Women for men"',
         description: 'Хореографический спектакль - шоу "Women for men" от труппы Cabaret&bar',
@@ -34,7 +45,7 @@ export const EVENTSINFOALL: PropsEvent[] = [
         schema: true,
     },
     {
-        id: "3",
+        id: "4",
         img: '/imagesForAfisha/iknow5.jpg',
         title: '"Я знаю женщину"',
         description: 'Премьера литературно музыкального спектакля "Я знаю женщину", посвященной паре великих русских поэтов серебряного века - Ахматовой и Гумилеву',
@@ -45,7 +56,7 @@ export const EVENTSINFOALL: PropsEvent[] = [
         schema: true,
     },
     {
-        id: "4",
+        id: "5",
         img: '/imagesForAfisha/vik7.jpg',
         title: '"Виктория Николаева"',
         description: 'На сцене кабаре - Виктория Николаева с незабываемым вокальным выступлением',
@@ -56,7 +67,7 @@ export const EVENTSINFOALL: PropsEvent[] = [
         schema: false,
     },
     {
-        id: "5",
+        id: "6",
         img: '/imagesForAfisha/w8.jpg',
         title: '"Women for men"',
         description: 'Хореографический спектакль - шоу "Women for men" от труппы Cabaret&bar',
@@ -67,7 +78,7 @@ export const EVENTSINFOALL: PropsEvent[] = [
         schema: true,
     },
     {
-        id: "6",
+        id: "7",
         img: '/imagesForAfisha/iknow12.jpg',
         title: '"Я знаю женщину"',
         description: 'Литературно музыкальный спектакль "Я знаю женщину"',
@@ -78,7 +89,7 @@ export const EVENTSINFOALL: PropsEvent[] = [
         schema: true,
     },
     {
-        id: "7",
+        id: "8",
         img: '/imagesForAfisha/w14.jpg',
         title: '"Women for men"',
         description: 'Хореографический спектакль - шоу "Women for men" от труппы Cabaret&bar',
@@ -89,7 +100,7 @@ export const EVENTSINFOALL: PropsEvent[] = [
         schema: true,
     },
     {
-        id: "8",
+        id: "9",
         img: '/imagesForAfisha/w15.jpg',
         title: '"Women for men"',
         description: 'Хореографический спектакль - шоу "Women for men" от труппы Cabaret&bar',
@@ -100,7 +111,7 @@ export const EVENTSINFOALL: PropsEvent[] = [
         schema: true,
     },
     {
-        id: "9",
+        id: "10",
         img: '/imagesForAfisha/esenin.jpg',
         title: '"Есенин"',
         description: '"Есенин" - литературно музыкальный спектакль, посвященный творчеству великого русского поэта',
@@ -111,7 +122,7 @@ export const EVENTSINFOALL: PropsEvent[] = [
         schema: true,
     },
     {
-        id: "10",
+        id: "11",
         img: '/imagesForAfisha/w21.jpg',
         title: '"Women for men"',
         description: 'Хореографический спектакль - шоу "Women for men" от труппы Cabaret&bar',
@@ -122,7 +133,7 @@ export const EVENTSINFOALL: PropsEvent[] = [
         schema: true,
     },
     {
-        id: "11",
+        id: "12",
         img: '/imagesForAfisha/w22.jpg',
         title: '"Women for men"',
         description: 'Хореографический спектакль - шоу "Women for men" от труппы Cabaret&bar',
@@ -133,7 +144,7 @@ export const EVENTSINFOALL: PropsEvent[] = [
         schema: true,
     },
     {
-        id: "12",
+        id: "13",
         img: '/imagesForAfisha/iknow26.jpg',
         title: '"Я знаю женщину"',
         description: 'Литературно музыкальный спектакль "Я знаю женщину"',
@@ -144,7 +155,7 @@ export const EVENTSINFOALL: PropsEvent[] = [
         schema: true,
     },
     {
-        id: "13",
+        id: "14",
         img: '/imagesForAfisha/bur28.jpg',
         title: '"Бурлеск"',
         description: '"Бурлеск" - мюзикл по мотивам одноименного фильма "Бурлеск" от труппы кабаре',
@@ -155,7 +166,7 @@ export const EVENTSINFOALL: PropsEvent[] = [
         schema: true,
     },
      {
-        id: "14",
+        id: "15",
         img: '/imagesForAfisha/bur29.jpg',
         title: '"Бурлеск"',
         description: '"Бурлеск" - мюзикл по мотивам одноименного фильма "Бурлеск" от труппы кабаре',
