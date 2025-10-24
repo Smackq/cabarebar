@@ -23,12 +23,13 @@ export function AfishaCard({img, title, description, date, price, id, dataTcEven
      const isMobile = typeof window !== "undefined" && window.innerWidth < 640
     return (
         <div className="cursor-pointer">
-            <div className="hover:scale-105 duration-350 transition-transform">
+            <div className=" hover:scale-105 duration-350 transition-transform">
             <Image onClick={handleOpenModal}
                 src={img} 
                 alt="img" 
                 width={500} 
                 height={500} 
+                className=""
                 data-aos="zoom-in"
                 data-aos-anchor-placement="top-bottom"
                 data-aos-duration="1500"
@@ -47,46 +48,45 @@ export function AfishaCard({img, title, description, date, price, id, dataTcEven
                             className="lg:w-[250px] lg:h-[350px] mx-auto lg:mx-0"
                         />
                         </div>
-                        <div className=" w-[300px]">
-                           <div className="flex flex-col h-full justify-between  rounded-xl">
-                            <div>
-                                <h1 className="text-center text-white text-2xl mt-5 lg:mt-0 font-cactus-classical">{title}</h1>
-                                <p className="text-white text-lg font-extralight font-['EB_Garamond'] mt-3 px-2 text-center">
-                                {description}
-                                </p>
-                                <div className="flex justify-between items-center mt-5 px-2 mb-10">
-                                    <span className="text-[#F0C471] text-xl font-eb-garamond">{date}</span>
-                                    <p className="text-[#F0C471] text-xl font-eb-garamond ">Цена: {price}</p>
-                                </div>
-                            </div>
-                                {schema ? (
-                                <div className="flex justify-center lg:mt-5">
-                                    {isMobile ? (
-                                    <BuyTicketsButton dataTcToken={dataTcToken} dataTcEvent={dataTcEvent}>
-                                        Купить билет
-                                    </BuyTicketsButton>
-                                    ) : (
-                                    <a href={`/afisha/booking/${id}`}>
-                                        <Button size={2}>Купить билет</Button>
-                                    </a>
-                                    )}
-                                </div>
-                                ) : (
-                                <div className="flex justify-center lg:mt-5">
-                                    <p className="text-red-800 text-center">
-                                    Уважаемый гость, на это мероприятие бронирование билетов
-                                    осуществляется по номеру <br/> +7 (900) 636-13-22.
-                                    </p>
-                                </div>
-                                )}
+                        <div className="w-[300px] flex flex-col justify-between h-full">
+  {/* Контент сверху */}
+  <div>
+    <h1 className="text-center text-white text-2xl mt-5 lg:mt-0 font-cactus-classical">
+      {title}
+    </h1>
+    <p className="text-white text-lg font-extralight font-cactus-classical mt-3 px-2 text-center ">
+      {description}
+    </p>
+    <div className="flex justify-between items-center mt-5 px-2 mb-10">
+      <span className="text-[#F0C471] text-xl font-eb-garamond">{date}</span>
+      <p className="text-[#F0C471] text-xl font-eb-garamond">Цена: {price}</p>
+    </div>
+  </div>
+
+  {/* Кнопка внизу */}
+  <div className="mt-auto flex justify-center pb-2">
+    {schema ? (
+      isMobile ? (
+        <BuyTicketsButton dataTcToken={dataTcToken} dataTcEvent={dataTcEvent}>
+          Купить билет
+        </BuyTicketsButton>
+      ) : (
+        <a href={`/afisha/booking/${id}`}>
+          <Button size={2}>Купить билет</Button>
+        </a>
+      )
+    ) : (
+      <p className="text-red-800 text-center">
+        Уважаемый гость, на это мероприятие бронирование билетов
+        осуществляется по номеру <br /> +7 (900) 636-13-22.
+      </p>
+    )}
+  </div>
+</div>
 
                             
-                            </div>
-
-                            
-                        </div>
-                    </div>
-                            
+                        
+                    </div>    
                 </Modal>}
            
         </div>
