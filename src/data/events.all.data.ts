@@ -40,7 +40,7 @@ export const EVENTSINFOALL: PropsEvent[] = [
         description: 'Хореографический спектакль - шоу "Women for men" от труппы Cabaret&bar',
         price: "≈2250",
         date: '02.11.2025',
-        dataTcEvent: "68fbbc2ae3f791e984349549",
+        dataTcEvent: "68fe595c100f2d4ded7e7d23",
         dataTcToken: "eyJhbGciOiJIUzI1NiIsImlzcyI6InRpY2tldHNjbG91ZC5ydSIsInR5cCI6IkpXVCJ9.eyJwIjoiNjhkYjkxMjc3ZDk2N2IyZWRkYWIzOWVjIn0.x53ioRnq2WdVMPetZaGGXsvm74ZWDn0xYumYpfGofL0",
         schema: true,
     },
