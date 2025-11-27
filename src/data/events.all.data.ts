@@ -79,28 +79,7 @@ export const EVENTSINFOALL: PropsEvent[] = [
     // },
    
    
-    {
-        id: "10",
-        img: '/imagesForAfisha/esenin.jpg',
-        title: '"Есенин"',
-        description: '"Есенин" - литературно музыкальный спектакль, посвященный творчеству великого русского поэта',
-        price: "≈1500",
-        date: '19.11.2025',
-        dataTcEvent: "68fabf68b74a7d0932b5acea",
-        dataTcToken: "eyJhbGciOiJIUzI1NiIsImlzcyI6InRpY2tldHNjbG91ZC5ydSIsInR5cCI6IkpXVCJ9.eyJwIjoiNjhkYjkxMjc3ZDk2N2IyZWRkYWIzOWVjIn0.x53ioRnq2WdVMPetZaGGXsvm74ZWDn0xYumYpfGofL0",
-        schema: true,
-    },
-    {
-        id: "12",
-        img: '/imagesForAfisha/w22.jpg',
-        title: '"Women for men"',
-        description: 'Хореографический спектакль - шоу "Women for men" от труппы Cabaret&bar',
-        price: "≈2250",
-        date: '22.11.2025',
-        dataTcEvent: "68fbbe7b946464ac6c1fb073",
-        dataTcToken: "eyJhbGciOiJIUzI1NiIsImlzcyI6InRpY2tldHNjbG91ZC5ydSIsInR5cCI6IkpXVCJ9.eyJwIjoiNjhkYjkxMjc3ZDk2N2IyZWRkYWIzOWVjIn0.x53ioRnq2WdVMPetZaGGXsvm74ZWDn0xYumYpfGofL0",
-        schema: true,
-    },
+   
     {
         id: "14",
         img: '/imagesForAfisha/bur28.jpg',
