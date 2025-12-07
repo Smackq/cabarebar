@@ -22,7 +22,7 @@ export default function FullAfisha() {
                         <div className="grid grid-cols-2 sm:grid-cols-3  justify-center gap-y-8 gap-5 lg:gap-10">
                         {
                             card.map((item) => (
-                                 <AfishaCard schema={item.schema} dataTcEvent={item.dataTcEvent} dataTcToken={item.dataTcToken} id={item.id} key={item.id} img={item.img} title={item.title} description={item.description} date={item.date} price={item.price} />
+                                 <AfishaCard schema={item.schema} dataTcEvent={item.dataTcEvent} dataTcToken={item.dataTcToken} id={item.id} key={item.id} img={item.img} title={item.title} description={item.description} date={item.date} price={item.price} prewDate={item.prewDate} />
                                 
                             ))
                             

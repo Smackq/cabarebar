@@ -8,6 +8,7 @@ export type PropsEvent = {
     dataTcEvent: string, 
     dataTcToken: string,
     schema: boolean,
+    prewDate:string
 }
 
 export const EVENTSINFOALL: PropsEvent[] = [
@@ -21,6 +22,7 @@ export const EVENTSINFOALL: PropsEvent[] = [
         dataTcEvent: "",
         dataTcToken: "",
         schema: false,
+        prewDate: '19:00 04.12.2025'
     },
     {
         id: "2",
@@ -32,6 +34,7 @@ export const EVENTSINFOALL: PropsEvent[] = [
         dataTcEvent: "",
         dataTcToken: "",
         schema: false,
+        prewDate: '19:00 05.12.2025'
     },
     {
         id: "3",
@@ -43,6 +46,7 @@ export const EVENTSINFOALL: PropsEvent[] = [
         dataTcEvent: "",
         dataTcToken: "",
         schema: false,
+        prewDate: '20:00 06.12.2025'
     },
     {
         id: "4",
@@ -54,6 +58,7 @@ export const EVENTSINFOALL: PropsEvent[] = [
         dataTcEvent: "",
         dataTcToken: "",
         schema: false,
+        prewDate: '19:00 12.12.2025'
     },
     {
         id: "5",
@@ -65,6 +70,7 @@ export const EVENTSINFOALL: PropsEvent[] = [
         dataTcEvent: "",
         dataTcToken: "",
         schema: false,
+        prewDate: '20:00 13.12.2025'
     },
      {
         id: "6",
@@ -76,6 +82,7 @@ export const EVENTSINFOALL: PropsEvent[] = [
         dataTcEvent: "",
         dataTcToken: "",
         schema: false,
+        prewDate: '18/19/20.12.2025'
     },
     {
         id: "7",
@@ -87,6 +94,7 @@ export const EVENTSINFOALL: PropsEvent[] = [
         dataTcEvent: "",
         dataTcToken: "",
         schema: false,
+        prewDate: '25/26/27.12.2025'
     },
     {
         id: "8",
@@ -98,6 +106,19 @@ export const EVENTSINFOALL: PropsEvent[] = [
         dataTcEvent: "",
         dataTcToken: "",
         schema: false,
+        prewDate: '31.12.2025'
+    },
+    {
+        id: "9",
+        img: '/imagesForAfisha/10.01.jpg',
+        title: 'Гастро STANDUP "Жарю Медиум"',
+        description: 'Новый формат ужина от Сергея Малаховского, где сочный стейк и острый юмор подаются одновременно',
+        price: "≈ 5000",
+        date: '10.01.2025',
+        dataTcEvent: "",
+        dataTcToken: "",
+        schema: false,
+        prewDate: '18:00 10.01.2025'
     },
     
 ]

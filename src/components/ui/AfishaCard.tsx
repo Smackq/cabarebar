@@ -13,7 +13,7 @@ import { Button } from "./Button"
 import { BuyTicketsButton } from "./BuyTicketsButton"
 
 
-export function AfishaCard({img, title, description, date, price, id, dataTcEvent, dataTcToken, schema}: PropsEvent) {
+export function AfishaCard({img, title, description, date, price, id, dataTcEvent, dataTcToken, schema, prewDate}: PropsEvent) {
 
     const [isOpenModal, setIsOpenModal] = useState(false)
 
@@ -22,17 +22,18 @@ export function AfishaCard({img, title, description, date, price, id, dataTcEven
     }
      const isMobile = typeof window !== "undefined" && window.innerWidth < 640
     return (
-        <div className="cursor-pointer">
-            <div className=" hover:scale-105 duration-350 transition-transform">
+        <div className="cursor-pointer  hover:scale-105 duration-350 transition-transform">
+            <div data-aos="zoom-in"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-duration="1500">
+              <div className="relative z-10 bg-white top-6 text-black text-center">{prewDate}</div>
             <Image onClick={handleOpenModal}
                 src={img} 
                 alt="img" 
                 width={500} 
                 height={500} 
                 className=""
-                data-aos="zoom-in"
-                data-aos-anchor-placement="top-bottom"
-                data-aos-duration="1500"
+                
                  loading="lazy"
                  
             />
