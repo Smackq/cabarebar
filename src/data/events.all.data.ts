@@ -13,42 +13,7 @@ export type PropsEvent = {
 
 export const EVENTSINFOALL: PropsEvent[] = [
 
-    {
-        id: "1",
-        img: '/imagesForAfisha/ilya-12.jpg',
-        title: 'Илья Гаврюсев',
-        description: 'Вновь на сцене кабаре Илья Гаврюсев с сольной программой на саксофоне ',
-        price: "≈ free",
-        date: '12.12.2025',
-        dataTcEvent: "",
-        dataTcToken: "",
-        schema: false,
-        prewDate: '19:00 12.12.2025'
-    },
-    {
-        id: "2",
-        img: '/imagesForAfisha/rad-13.jpg',
-        title: 'Родион Коев и Инна Иртюго',
-        description: 'Сцена кабаре представляет музыкальный альянс фортепиано и вокала в исполнении Родиона Коева и Инны Иртюго',
-        price: "≈ free",
-        date: '13.12.2025',
-        dataTcEvent: "",
-        dataTcToken: "",
-        schema: false,
-        prewDate: '20:00 13.12.2025'
-    },
-    {
-        id: "3",
-        img: '/imagesForAfisha/corp1.jpg',
-        title: 'Корпоративные вечера в стиле голливудской сказки',
-        description: 'Welcome drink, фуршет и шоу программа!',
-        price: "≈ 9800",
-        date: '18.12.2025',
-        dataTcEvent: "",
-        dataTcToken: "",
-        schema: false,
-        prewDate: '18.12.2025 19:00'
-    },
+
     {
         id: "4",
         img: '/imagesForAfisha/corp1.jpg',
@@ -73,18 +38,7 @@ export const EVENTSINFOALL: PropsEvent[] = [
         schema: true,
         prewDate: '20.12.2025 19:00'
     },
-    {
-        id: "6",
-        img: '/imagesForAfisha/corp1.jpg',
-        title: 'Корпоративные вечера в стиле голливудской сказки',
-        description: 'Welcome drink, фуршет и шоу программа!',
-        price: "≈ 3900",
-        date: '25.12.2025',
-        dataTcEvent: "",
-        dataTcToken: "",
-        schema: false,
-        prewDate: '25.12.2025 19:00'
-    },
+    
     {
         id: "7",
         img: '/imagesForAfisha/corp1.jpg',
