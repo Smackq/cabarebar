@@ -14,56 +14,7 @@ export type PropsEvent = {
 export const EVENTSINFOALL: PropsEvent[] = [
 
 
-    {
-        id: "4",
-        img: '/imagesForAfisha/corp1.jpg',
-        title: 'Корпоративные вечера в стиле голливудской сказки',
-        description: 'Welcome drink, фуршет и шоу программа!',
-        price: "≈ 3900",
-        date: '19.12.2025',
-        dataTcEvent: "693bcc8ed6f625b2db3df202",
-        dataTcToken: "eyJhbGciOiJIUzI1NiIsImlzcyI6InRpY2tldHNjbG91ZC5ydSIsInR5cCI6IkpXVCJ9.eyJwIjoiNjhkYjkxMjc3ZDk2N2IyZWRkYWIzOWVjIn0.x53ioRnq2WdVMPetZaGGXsvm74ZWDn0xYumYpfGofL0",
-        schema: true,
-        prewDate: '19.12.2025 19:00'
-    },
-    {
-        id: "5",
-        img: '/imagesForAfisha/corp1.jpg',
-        title: 'Корпоративные вечера в стиле голливудской сказки',
-        description: 'Welcome drink, фуршет и шоу программа!',
-        price: "≈ 3900",
-        date: '20.12.2025',
-        dataTcEvent: "693bd77e6da6c412691d9b0e",
-        dataTcToken: "eyJhbGciOiJIUzI1NiIsImlzcyI6InRpY2tldHNjbG91ZC5ydSIsInR5cCI6IkpXVCJ9.eyJwIjoiNjhkYjkxMjc3ZDk2N2IyZWRkYWIzOWVjIn0.x53ioRnq2WdVMPetZaGGXsvm74ZWDn0xYumYpfGofL0",
-        schema: true,
-        prewDate: '20.12.2025 19:00'
-    },
-    
-    {
-        id: "7",
-        img: '/imagesForAfisha/corp1.jpg',
-        title: 'Корпоративные вечера в стиле голливудской сказки',
-        description: 'Welcome drink, фуршет и шоу программа!',
-        price: "≈ 3900",
-        date: '26.12.2025',
-        dataTcEvent: "693bd8233c0bc02c020df0ab",
-        dataTcToken: "eyJhbGciOiJIUzI1NiIsImlzcyI6InRpY2tldHNjbG91ZC5ydSIsInR5cCI6IkpXVCJ9.eyJwIjoiNjhkYjkxMjc3ZDk2N2IyZWRkYWIzOWVjIn0.x53ioRnq2WdVMPetZaGGXsvm74ZWDn0xYumYpfGofL0",
-        schema: true,
-        prewDate: '26.12.2025 19:00'
-    },
-    {
-        id: "8",
-        img: '/imagesForAfisha/corp1.jpg',
-        title: 'Корпоративные вечера в стиле голливудской сказки',
-        description: 'Welcome drink, фуршет и шоу программа!',
-        price: "≈ 3900",
-        date: '27.12.2025',
-        dataTcEvent: "693bd85d63644d6c6975b649",
-        dataTcToken: "eyJhbGciOiJIUzI1NiIsImlzcyI6InRpY2tldHNjbG91ZC5ydSIsInR5cCI6IkpXVCJ9.eyJwIjoiNjhkYjkxMjc3ZDk2N2IyZWRkYWIzOWVjIn0.x53ioRnq2WdVMPetZaGGXsvm74ZWDn0xYumYpfGofL0",
-        schema: true,
-        prewDate: '27.12.2025 19:00'
-    },
-    
+
     {
         id: "9",
         img: '/imagesForAfisha/ng.jpg',
@@ -75,18 +26,6 @@ export const EVENTSINFOALL: PropsEvent[] = [
         dataTcToken: "",
         schema: false,
         prewDate: '31.12.2025'
-    },
-    {
-        id: "10",
-        img: '/imagesForAfisha/10.01.jpg',
-        title: 'Гастро STANDUP "Жарю Медиум"',
-        description: 'Новый формат ужина от Сергея Малаховского, где сочный стейк и острый юмор подаются одновременно',
-        price: "≈ 5000",
-        date: '10.01.2025',
-        dataTcEvent: "",
-        dataTcToken: "",
-        schema: false,
-        prewDate: '18:00 10.01.2025'
     },
     
 ]
