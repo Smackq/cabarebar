@@ -39,11 +39,11 @@ export default function SectionAfisha() {
           АФИША
         </h1>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 justify-center gap-5 lg:gap-10">
+        {/* <div className="grid grid-cols-2 sm:grid-cols-3 justify-center gap-5 lg:gap-10">
           {visibleCard.map((item) => (
             <AfishaCard schema={item.schema} dataTcEvent={item.dataTcEvent} dataTcToken={item.dataTcToken} id={item.id} key={item.id} img={item.img} title={item.title} description={item.description} date={item.date} price={item.price} prewDate={item.prewDate} />
           ))}
-        </div>
+        </div> */}
 
         <div className="flex justify-end mt-5">
           
